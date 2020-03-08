@@ -1,5 +1,11 @@
 # 401-lab-40
 
+# To Do Application
+## Author
+David Vloedman
+
+
+
 # Links
 [Deployment](https://david-vloedman-401-advanced-javascript.github.io/401-lab-40/)
 
