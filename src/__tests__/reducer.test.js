@@ -1,6 +1,6 @@
 import reducer from "../state/store/todo-reducer";
 
-describe("Our Reducer", () => {
+xdescribe("Our Reducer", () => {
   it("does a GET right", () => {
     let initialState = {};
     let action = {
