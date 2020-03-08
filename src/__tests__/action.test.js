@@ -1,5 +1,5 @@
 describe('Todo application', ()=> {
-  expect('asdf', ()=>{
+  it('should run', ()=>{
 
   });
 });
