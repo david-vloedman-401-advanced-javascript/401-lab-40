@@ -1,5 +1,7 @@
 const initialState = { todoList: [], showDetails: null, details: {} };
-
+/**
+ * Reducer for ToDo
+ */
 export default (state = initialState, action) => {
   let { type, payload } = action;
 

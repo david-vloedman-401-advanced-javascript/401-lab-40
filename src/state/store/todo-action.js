@@ -15,12 +15,19 @@ export const get = payload => {
   };
 };
 
+export const _toggle = payload => {
+  return { 
+    type: "TOGGLE",
+    payload: payload
+  }
+}
+
 export const toggle = payload => dispatch => {
   console.log(payload);
   return callAPI(`${todoAPI}/${payload}`, "PUT", { complete: true })
     .then(results => {
       console.log(results);
-      dispatch({ type: "TOGGLE", payload: payload });
+      dispatch(_toggle(payload));
     })
     .catch(e => console.log(e));
 };

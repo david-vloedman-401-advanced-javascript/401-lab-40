@@ -1,7 +1,10 @@
 import React, { useContext, useState } from "react";
 import { Unless, When } from "../if/";
 import { SettingsContext } from "../../context/settings.js";
-
+/**
+ * Component for holding the todo items
+ * @param {*} props 
+ */
 const TodoList = props => {
   const [page, setPage] = useState(0);
   const context = useContext(SettingsContext);

@@ -10,25 +10,43 @@ import Auth from "../auth/auth";
 
 import "./todo.scss";
 import { connect } from "react-redux";
-
+/**
+ * Main component for the ToDo Appliction
+ * @param {*} props 
+ */
 const ToDo = props => {
+  /**
+   * Add an item
+   * @param {*} data 
+   */
   const _addItem = data => {
     data.complete = false;
     props.handlePost(data);
   };
-
+  /**
+   * 
+   * @param {*} id 
+   */
   const _deleteItem = id => {
     props.handleDelete(id);
   };
-
+  /**
+   * 
+   * @param {*} id 
+   */
   const _toggleComplete = id => {
     props.handleToggle(id);
   };
-
+/**
+ * 
+ * @param {*} id 
+ */
   const _toggleDetails = id => {
     props.handleDetails(id);
   };
-
+/**
+ * 
+ */
   const _getTodoItems = () => {
     props.handleGet();
   };

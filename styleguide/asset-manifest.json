@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/401-lab-40/static/css/main.7c809b43.chunk.css",
+    "main.js": "/401-lab-40/build/main.0f72787e.js",
+    "runtime-main.js": "/401-lab-40/build/bundle.307b07e4.js",
+    "build/2.ad98698c.js": "/401-lab-40/build/2.ad98698c.js",
+    "build/2.ad98698c.js.LICENSE.txt": "/401-lab-40/build/2.ad98698c.js.LICENSE.txt",
+    "index.html": "/401-lab-40/index.html",
+    "precache-manifest.54d18de8f51e1a935a333a5d6f920d43.js": "/401-lab-40/precache-manifest.54d18de8f51e1a935a333a5d6f920d43.js",
+    "service-worker.js": "/401-lab-40/service-worker.js",
+    "static/css/main.7c809b43.chunk.css.map": "/401-lab-40/static/css/main.7c809b43.chunk.css.map"
+  }
+}
