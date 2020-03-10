@@ -1,7 +1,10 @@
 import React from "react";
 import useForm from "../../hooks/form.js";
 import { Field, reduxForm } from "redux-form";
-
+/**
+ * Form for adding new todo items
+ * @param {*} props 
+ */
 const TodoForm = props => {
   const { handleChange, handleSubmit } = useForm(props.handleSubmit);
 

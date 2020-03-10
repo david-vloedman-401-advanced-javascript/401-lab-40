@@ -1,3 +1,12 @@
+
+/**
+ * Middleware for handling all API calls
+ * @param {*} url 
+ * @param {*} method 
+ * @param {*} body 
+ * @param {*} handler 
+ * @param {*} errorHandler 
+ */
 const callAPI = (url, method = "get", body, handler, errorHandler) => {
   return fetch(url, {
     method: method,

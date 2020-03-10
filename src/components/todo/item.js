@@ -1,6 +1,9 @@
 import React from 'react';
 import Modal from '../modal';
-
+/**
+ * Component for the individual to do items
+ * @param {*} props 
+ */
 const Item = (props) => {
 
   const item = props.item || {};
