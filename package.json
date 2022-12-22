@@ -5,7 +5,7 @@
   "homepage": "https://david-vloedman-401-advanced-javascript.github.io/401-lab-40/",
   "dependencies": {
     "gh-pages": "^2.2.0",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "node-sass": "^4.13.1",
     "react": "^16.10.1",
     "react-cookies": "0.1.1",
